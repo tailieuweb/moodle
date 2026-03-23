@@ -1,0 +1,13 @@
+What is the capital of Vietnam?
+A. Hanoi
+B. Ho Chi Minh City
+C. Da Nang
+D. Hue
+ANSWER: A
+
+Which language is used to develop Moodle?
+A. Java
+B. PHP
+C. Python
+D. C#
+ANSWER: B

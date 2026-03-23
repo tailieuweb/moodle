@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/top/Type Category Name</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 16  -->
+  <question type="matching">
+    <name>
+      <text>Matching Question name (MAT)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match the following pairs (MATCHING)</p><p>You can add images to your questions. Make sure you let students know the image is there in case it doesn’t load for them. </p><p>If images have been cropped or resized you may need to double click on the image and choose <strong>Compress Pictures </strong>&gt; <strong>All pictures in document</strong> &gt; <strong>OK</strong> before you upload.</p><p><span lang="en"><img src="@@PLUGINFILE@@/image1.png" alt=""/></span></p>]]></text>
+<file name="image1.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 1</p>]]></text>
+      <answer>
+        <text>Match 1</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 2</p>]]></text>
+      <answer>
+        <text>Match 2</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 3</p>]]></text>
+      <answer>
+        <text>Match 3</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 4</p>]]></text>
+      <answer>
+        <text>Match 4</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 26  -->
+  <question type="matching">
+    <name>
+      <text>Matching Question name (MAT)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match the following pairs (MATCHING)</p><p>You can add images to your questions. Make sure you let students know the image is there in case it doesn’t load for them. </p><p>If images have been cropped or resized you may need to double click on the image and choose <strong>Compress Pictures </strong>&gt; <strong>All pictures in document</strong> &gt; <strong>OK</strong> before you upload.</p><p><span lang="en"><img src="@@PLUGINFILE@@/image1.png" alt=""/></span></p>]]></text>
+<file name="image1.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 1</p>]]></text>
+      <answer>
+        <text>Match 1</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 2</p>]]></text>
+      <answer>
+        <text>Match 2</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 3</p>]]></text>
+      <answer>
+        <text>Match 3</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 4</p>]]></text>
+      <answer>
+        <text>Match 4</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 36  -->
+  <question type="matching">
+    <name>
+      <text>Matching Question name (MAT)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match the following pairs (MATCHING)</p><p>You can add images to your questions. Make sure you let students know the image is there in case it doesn’t load for them. </p><p>If images have been cropped or resized you may need to double click on the image and choose <strong>Compress Pictures </strong>&gt; <strong>All pictures in document</strong> &gt; <strong>OK</strong> before you upload.</p><p><span lang="en"><img src="@@PLUGINFILE@@/image1.png" alt=""/></span></p>]]></text>
+<file name="image1.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 1</p>]]></text>
+      <answer>
+        <text>Match 1</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 2</p>]]></text>
+      <answer>
+        <text>Match 2</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 3</p>]]></text>
+      <answer>
+        <text>Match 3</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Item 4</p>]]></text>
+      <answer>
+        <text>Match 4</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 19  -->
+  <question type="cloze">
+    <name>
+      <text>Cloze Question name (CL)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="cell">Type a {1:MULTICHOICE:%100%cloze question~%0%bold text~%0%dropdown} here (FILL IN THE GAPS) and use {1:MULTICHOICE:%100%bold text~%0%cloze question~%0%dropdown} to populate those words into a {1:MULTICHOICE:%100%dropdown~%0%cloze question~%0%bold text} menu and {1:SHORTANSWER:%100%italic text} for blank spaces where {1:SHORTANSWER:%100%students} fill in the words in italics.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p class="cell">Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 29  -->
+  <question type="cloze">
+    <name>
+      <text>Cloze Question name (CL)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="cell">Type a {1:MULTICHOICE:%100%cloze question~%0%bold text~%0%dropdown} here (FILL IN THE GAPS) and use {1:MULTICHOICE:%100%bold text~%0%cloze question~%0%dropdown} to populate those words into a {1:MULTICHOICE:%100%dropdown~%0%cloze question~%0%bold text} menu and {1:SHORTANSWER:%100%italic text} for blank spaces where {1:SHORTANSWER:%100%students} fill in the words in italics.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p class="cell">Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 39  -->
+  <question type="cloze">
+    <name>
+      <text>Cloze Question name (CL)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="cell">Type a {1:MULTICHOICE:%100%cloze question~%0%bold text~%0%dropdown} here (FILL IN THE GAPS) and use {1:MULTICHOICE:%100%bold text~%0%cloze question~%0%dropdown} to populate those words into a {1:MULTICHOICE:%100%dropdown~%0%cloze question~%0%bold text} menu and {1:SHORTANSWER:%100%italic text} for blank spaces where {1:SHORTANSWER:%100%students} fill in the words in italics.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p class="cell">Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 17  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Multi-answer Question name (MA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-Answer question here (MULTIPLE-ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 27  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Multi-answer Question name (MA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-Answer question here (MULTIPLE-ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 37  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Multi-answer Question name (MA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-Answer question here (MULTIPLE-ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Right answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 15  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Question name (MC)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-choice question here (MULTIPLE CHOICE)</p><p> </p><p>Surround any LaTeX in double dollar signs for Moodle to convert it to an image.</p><p> </p><p>$$E &amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$$</p><p> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Right answer</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 4</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 25  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Question name (MC)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-choice question here (MULTIPLE CHOICE)</p><p> </p><p>Surround any LaTeX in double dollar signs for Moodle to convert it to an image.</p><p> </p><p>$$E &amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$$</p><p> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Right answer</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 4</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 35  -->
+  <question type="multichoice">
+    <name>
+      <text>MCQ Question name (MC)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Multiple-choice question here (MULTIPLE CHOICE)</p><p> </p><p>Surround any LaTeX in double dollar signs for Moodle to convert it to an image.</p><p> </p><p>$$E &amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$$</p><p> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Correct, well done</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No, try again</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Right answer</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 4</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrong answer 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 18  -->
+  <question type="shortanswer">
+    <name>
+      <text>Short-Answer Question name (SA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Short Answer question here (SHORT ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer 2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 28  -->
+  <question type="shortanswer">
+    <name>
+      <text>Short-Answer Question name (SA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Short Answer question here (SHORT ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer 2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 38  -->
+  <question type="shortanswer">
+    <name>
+      <text>Short-Answer Question name (SA)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Type Short Answer question here (SHORT ANSWER)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Detailed feedback goes here!</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Right answer 2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
